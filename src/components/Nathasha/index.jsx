@@ -1,11 +1,12 @@
 import React  from "react"
 
-function Index({teste, idade}){
+function Index({nome, idade, teste}){
     return(
         <>
             <h1>Hello Wold</h1>
-            <p> {teste} </p>
-            <p>{teste}.teste</p>
+            <p> {nome}</p>
+            <p>Sua idade é {idade} </p>
+            <p> Se voce somar 1+1 vai dar {1+1}</p>
         </>
         
     )
